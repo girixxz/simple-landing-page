@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/girixxz/simple-landing-page.git'
+                git branch: 'master', url: 'https://github.com/girixxz/simple-landing-page.git'
             }
         }
         stage('Build') {
